@@ -77,7 +77,7 @@ exports.pushOrderInPurchaseList = (req, res, next) => {
     (err, purchase) => {
       if (err) {
         return res.status(40).json({
-          error: "Unable to save purchasse list",
+          error: "Unable to save purchase list",
         });
       }
       next();
